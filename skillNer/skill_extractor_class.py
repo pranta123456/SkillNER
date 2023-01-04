@@ -61,7 +61,7 @@ class SkillExtractor:
     def annotate(
         self,
         text: str,
-        tresh: float = 0.5
+        tresh: float = 0.95
     ) -> dict:
         """To annotate a given text and thereby extract skills from it.
 
